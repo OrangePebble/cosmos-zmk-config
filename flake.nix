@@ -43,7 +43,7 @@
           #  https://github.com/lilyinstarlight/zmk-nix/blob/main/nix/firmware.nix
           board = "nice_nano@2.0.0//zmk";
           shield = "cosmos_%PART%";
-          zephyrDepsHash = "sha256-bcaxECHijaUHuMcBhES+r0YCVvTOT+nX2nHP2hl4Ry4=";
+          zephyrDepsHash = "sha256-39rJp9v09MGlZrNS2yIMHAUkE4asI/O3aU9ho2klq+E=";
 
           meta = {
             description = "ZMK firmware";
