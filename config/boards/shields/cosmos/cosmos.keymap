@@ -200,9 +200,9 @@
 //        ├───────────┼────────────────┼───────────┼───────────┼───────────┼───────────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┼───────────┤
 //        │ out_ ble  │                │           │           │           │           │      │   │      │      │      │      │      │      │           │
 //        ├───────────┼────────────────┼───────────┼───────────┼───────────┼───────────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┼───────────┤
-//        │ out_ usb  │                │           │           │           │           │      │   │ next │ home │ left │  up  │ rght │ pgup │           │
+//        │ out_ usb  │                │           │           │           │           │      │   │ next │ pgup │ left │  up  │ rght │ home │           │
 //        ├───────────┼────────────────┼───────────┼───────────┼───────────┼───────────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┼───────────┤
-//        │           │                │           │           │           │           │ caps │   │ prev │ end  │      │ down │      │ pgdn │           │
+//        │           │                │           │           │           │           │ caps │   │ prev │ pgdn │      │ down │      │ end  │           │
 //        └───────────┴────────────────┼───────────┼───────────┼───────────┴───────────┴──────┘   └──────┴──────┴──────┼──────┼──────┼──────┴───────────┘
 //                                     │           │ to DEFAU< │                                                       │  (   │  )   │
 //                                     └───────────┴───────────┼───────────┬───────────┬──────┐   ┌──────┬──────┬──────┼──────┴──────┘
@@ -210,13 +210,13 @@
 //                                                             └───────────┼───────────┼──────┤   ├──────┼──────┼──────┘
 //                                                                         │           │      │   │      │      │
 //                                                                         └───────────┴──────┘   └──────┴──────┘
-      &td_reset      &studio_unlock   &trans       &trans        &trans       &trans       &trans             &kp C_BRI_UP   &trans     &trans     &trans     &trans      &trans      &td_reset
-      &bt BT_CLR     &mt_bt 0 0       &mt_bt 1 1   &mt_bt 2 2    &mt_bt 3 3   &mt_bt 4 4   &trans             &kp C_BRI_DN   &trans     &trans     &trans     &trans      &trans      &trans
-      &out OUT_BLE   &trans           &trans       &trans        &trans       &trans       &trans             &trans         &trans     &trans     &trans     &trans      &trans      &trans
-      &out OUT_USB   &trans           &trans       &trans        &trans       &trans       &trans             &kp C_NEXT     &kp HOME   &kp LEFT   &kp UP     &kp RIGHT   &kp PG_UP   &trans
-      &trans         &trans           &trans       &trans        &trans       &trans       &kp CAPSLOCK       &kp C_PREV     &kp END    &trans     &kp DOWN   &trans      &kp PG_DN   &trans
-                                      &trans       &to DEFAULT                                                                                     &kp LPAR   &kp RPAR
-                                                                 &trans       &trans       &trans             &trans         &trans     &trans
+      &td_reset      &studio_unlock   &trans       &trans        &trans       &trans       &trans             &kp C_BRI_UP   &trans      &trans     &trans     &trans      &trans     &td_reset
+      &bt BT_CLR     &mt_bt 0 0       &mt_bt 1 1   &mt_bt 2 2    &mt_bt 3 3   &mt_bt 4 4   &trans             &kp C_BRI_DN   &trans      &trans     &trans     &trans      &trans     &trans
+      &out OUT_BLE   &trans           &trans       &trans        &trans       &trans       &trans             &trans         &trans      &trans     &trans     &trans      &trans     &trans
+      &out OUT_USB   &trans           &trans       &trans        &trans       &trans       &trans             &kp C_NEXT     &kp PG_UP   &kp LEFT   &kp UP     &kp RIGHT   &kp HOME   &trans
+      &trans         &trans           &trans       &trans        &trans       &trans       &kp CAPSLOCK       &kp C_PREV     &kp PG_DN   &trans     &kp DOWN   &trans      &kp END    &trans
+                                      &trans       &to DEFAULT                                                                                      &kp LPAR   &kp RPAR
+                                                                 &trans       &trans       &trans             &trans         &trans      &trans
                                                                               &trans       &trans             &trans         &trans
             >;
         };
